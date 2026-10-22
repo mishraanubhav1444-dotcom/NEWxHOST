@@ -46,16 +46,17 @@ except ValueError:
     logger.error("OWNER_ID or ADMIN_ID must be valid integers!")
     raise
 
+
 YOUR_USERNAME = '@HEADZINGORA'
 UPDATE_CHANNEL = 'https://t.me/HOMEZINGORA'
 YOUTUBE_CHANNEL = 'https://youtube.com/@ZINGORAFF'
-CHANNEL_USERNAME = '@HOMEZINGORA' 
- UPDATE_CHANNEL.rstrip('/').split('/')[-1]
+CHANNEL_USERNAME = '@HOMEZINGORA'
 
 BASE_DIR = Path(__file__).parent.absolute()
 UPLOAD_BOTS_DIR = BASE_DIR / 'upload_bots'
 IROTECH_DIR = BASE_DIR / 'inf'
 DATABASE_PATH = IROTECH_DIR / 'bot_data.db'
+
 
 FREE_USER_LIMIT = float('inf')
 SUBSCRIBED_USER_LIMIT = float('inf')
